@@ -8,7 +8,7 @@ public class TimeFormat {
         String day = "AM";
         
         if (hours == 0){
-            hours = 12;
+            hours = 0;
         } else if (hours == 12){
             day = "PM";
         } else if (hours > 12){
